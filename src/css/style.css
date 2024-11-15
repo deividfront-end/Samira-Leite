@@ -204,9 +204,10 @@ nav a:hover {
 
 /*Responsive  */
 @media (max-width: 415px) {
- 
-
-
+  /* General Styles */
+  * {
+    box-sizing: border-box; /* Ensures consistent sizing */
+  }
 
 /*Estilização Menu */
 
