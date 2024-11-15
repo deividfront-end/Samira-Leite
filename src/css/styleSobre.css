@@ -169,12 +169,17 @@ nav a:hover {
 @media (max-width: 415px) {
   
   @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+  body{
+    margin-bottom: 0!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/5579455\ \(2\).jpg);
+    background-color: #302f2f;
+    background-size:cover!important;
+  }
 
 
 .container-menu {
@@ -256,18 +261,20 @@ nav a:hover {
     margin-inline-end: 15px;
   }
 
-
-
   /*Rodapé */
-
   .container-rodape {
-    margin-top: 0px;
+    height: 82px!important;
     display: flex;
     justify-content: center;
     justify-items: center;
-    background-color: #3a3838;
-    padding: 20px;
- 
+    text-align: center;
+    color: #ffffff;
+    background-color:#353434; 
+    font-size: 12px;
+    padding-bottom: 2px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2px;
   }
   
 
@@ -280,22 +287,10 @@ nav a:hover {
     background-color: #4b4848;
     padding: 10px;
     gap: 15px;
+    height:107px!important ;
   }
   /*Estilização Container Rodapé*/
-  .container-rodape {
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    text-align: center;
-    color: #ffffff;
-    background-color:#353434; 
-    margin-bottom: 0px;
-    font-size: 12px;
-    padding-bottom: 2px;
-    padding-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+
   
 
 }

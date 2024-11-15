@@ -210,7 +210,17 @@ nav a:hover {
   }
 
 /*Estilização Menu */
-
+body{
+  margin-bottom: 0!important;
+  margin-left: 0!important;
+  margin-right: 0!important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../img/5579455\ \(2\).jpg);
+  background-color: #302f2f;
+  background-size:cover!important;
+}
 .container-menu {
  
   display: flex;
