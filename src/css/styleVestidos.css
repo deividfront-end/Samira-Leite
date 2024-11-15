@@ -8,11 +8,13 @@
 }
 
 body {
-  margin-left: 0!important;
-  margin-right: 0!important;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
+  font-family: "Poppins", sans-serif;
+  background-image: url(../img/FundoHome.jpg) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
   /*Estilização Menu */
@@ -57,6 +59,27 @@ nav a:hover {
   color: rgb(26, 15, 15);
   border-radius: 5px;
 }
+
+.container-titulo-projetos{
+  
+  background-color:#353434;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   height: 80px;
+   
+ }
+.texto-titulo{
+  
+ margin-top: 20px;
+  width: 190px;
+  height: 40px;
+  color: #edf0f1;
+  font-size: 40px!important;
+
+ 
+ }
+
 
   .container-menu {
     width: auto;
@@ -221,6 +244,8 @@ nav a:hover {
   .conteudo-subtitulo {
     text-align: center;
   }
+
+ 
   
   .container-colecao3 {
     display: flex;
@@ -238,178 +263,141 @@ nav a:hover {
     text-align: center;
     color: black;
   }
-  
+  .carousel{
+    margin-left: -55px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 415px;
+  }
  
   /*Responsive  */
   @media (max-width: 415px) {
 
     /* Menu nav */
-    body{
-      margin-bottom: 0!important;
-      margin-left: 0!important;
-      margin-right: 0!important;
-      margin: 0;
+
+    * {
+      height: none;
+      margin: 1px;
       padding: 0;
       box-sizing: border-box;
-      background-image: url(../img/5579455\ \(2\).jpg);
-      background-color: #302f2f;
-      background-size:cover!important;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    body {
+      margin-left: auto;
+      margin-right: 1px;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      background-image: url(../img/FundoHome.jpg) !important;
+      background-size: cover;
       background-repeat: no-repeat;
     }
-.container-menu {
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  gap: 21px;
-  margin-top: 0px;
-  background-color: #474747!important;  
-}
-nav {
+
+    header{
+      width: 415px!important;
+    }
+.container-menu{
+ gap: -2px!important;
+width: 415px;
   display: flex;
   justify-content: center;
   justify-items: center;
-  gap: 20px;
+  background-color:#353434;  
 }
-nav a {
+
+.container-menu .logo{
+
+  margin-left: 12px;
+}
+
+nav{
+  margin-left: -40px;
+  width: 415px;
+  gap: 12px;
+}
+
+
+
+.container-projects{
+  width: 415px;
+}
+.container-titulo-projetos{
+  width: 415px;
+  background-color:#474747!important;
   display: flex;
-  text-align: center;
-  align-items: center;
-  font-family: "Indie Flower";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  border-radius: 5px;
-  color: #ffffff;
-  text-decoration: none;
-  height: 20px;
+  justify-content: center;
+  justify-items: center;
 }
-nav a:hover {
-  color: rgb(26, 15, 15);
-  border-radius: 5px;
+
+.container-home{
+  width: 415px;
 }
-    
-  
-    .conteudo-subtitulo {
-      color: #fff9f9;
-    }
-  
-    
-  
-    .container-rodape {
-      margin-top: 0px;
-      display: flex!important;
-      justify-content: center;
-      justify-items: center;
-      background-color: #3a3838;
-      padding: 20px;
-   
-    }
-  
-   
-  
-    /* Container Colecao2 editorial 2 GRID*/
-  
-    .container-colecao1 {
-      height: 540px !important;
-      display: flex !important;
-      justify-content: center !important;
-      justify-items: center !important;
-    }
-  
-    /* Container Colecao3 editorial 3 GRID*/
-  
-    .container-colecao2 {
-      height: 540px !important;
-     
-      display: flex !important;
-      justify-content: center !important;
-      justify-items: center !important;
-    }
-  
-    .container-colecao3 {
-     
-      
-      display: flex !important;
-      justify-content: center !important;
-      justify-items: center !important;
-      background-color: #fffb00!important;
-    }
-  
-    .container-carousel {
-      margin-left: 52px;
-      position: relative;
-      width: 71%;
-      max-width: 350px;
-      height: 520px;
-      overflow: hidden;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      margin-bottom: 20px; /* Espaçamento entre as seções */
-    }
-  
-    .img1 {
-      width: 285px !important;
-      height: 520px !important;
-    }
-  
-    .img2 {
-      width: 286px !important;
-      height: 520px !important;
-    }
-  
-    .img3 {
-      width: 286px !important;
-      height: 520px !important;
-    }
-  
-    .img4 {
-      width: 284px !important;
-      height: 520px !important;
-    }
-  
-    .img5 {
-      width: 285px !important;
-      height: 520px !important;
-    }
-  
-    .img6 {
-      width: 287px !important;
-      height: 520px !important;
-    }
-  
-    .img7 {
-      width: 285px !important;
-      height: 520px !important;
-    }
-  
-    .titulo-projects {
-      display: flex;
-      justify-content: center;
-      justify-items: center;
-      font-weight: 500;
-      font-family: "Montserrat", sans-serif;
-      margin-top: 1px;
-      color: #ffffff;
-      letter-spacing: 4px;
-      font-size: 20px;
-      align-items: center;
-      background-color: #474747;  
-      padding: 20px;
-    }
-  
-    .titulo-projects h3 {
-      font-size: 30px !important;
-      color:#edf0f1;
-      
-    }
-  
-    h3 {
-      font-size: 12px !important;
-    }
-    h3:hover {
-      color: #fff700;
-    }
- 
+
+.conteudo-subtitulo{
+  width: 415px;
+}
+
+.container-carousel{
+  margin-left: -1px!important;
+}
+.container-colecao1{
+  width: 415px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.container-colecao2{
+  width: 415px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.container-colecao3{
+  width: 415px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.carousel{
+  margin-left: 0px!important;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 415px;
+}
+.carousel2{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 415px;
+}
+
+.carousel3{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 415px;
+}
+
+
+
+
+footer{
+  width: 415px;
+}
+.container-redes{
+  width: 415px;
+  margin-bottom: -1px;
+}
+.container-rodape{
+  width: 415px;
+  background-color:#353434;  
+}
 
   }
   
