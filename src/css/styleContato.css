@@ -12,6 +12,7 @@ body {
   background-image: url(../img/5579455\ \(2\).jpg);
   background-color: #302f2f;
   background-size:auto;
+  background-repeat: no-repeat;
 }
 
 
@@ -318,6 +319,7 @@ footer{
     background-image: url(../img/5579455\ \(2\).jpg);
     background-color: #302f2f;
     background-size:cover!important;
+    background-repeat: no-repeat;
   }
 
 

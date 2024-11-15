@@ -196,6 +196,7 @@ nav a:hover {
     height: 510px;
     background-image: url(../img/5579455\ \(2\).jpg);
     background-size: cover;
+    background-repeat: no-repeat;
   }
   
   /* Container Colecao2 editorial 2 */
@@ -213,6 +214,7 @@ nav a:hover {
     background-color: #474747!important;
     background-image: url(../img/5579455\ \(2\).jpg);
     background-size: cover;
+    background-repeat: no-repeat;
   }
   
   /* Container Colecao3 editorial 2 */
@@ -228,6 +230,7 @@ nav a:hover {
     height: 550px;
     background-image: url(../img/5579455\ \(2\).jpg);
     background-size: cover;
+    background-repeat: no-repeat;
   }
   
   /* Container Colecao3 editorial 3 */
@@ -251,6 +254,7 @@ nav a:hover {
       background-image: url(../img/5579455\ \(2\).jpg);
       background-color: #302f2f;
       background-size:cover!important;
+      background-repeat: no-repeat;
     }
 .container-menu {
   justify-content: center;
