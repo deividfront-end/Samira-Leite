@@ -46,14 +46,7 @@
 
 }
 
-.card2-img2{
-    margin-top: -195px;
-    position: relative;
-    width: 640px;
-    height: 480px;
 
-
-}
 
 
 .container-card .card .content{
@@ -142,18 +135,8 @@ width: 415px;
 
 }
 
-
-.card2-img2{
-    margin-top: -195px;
-    position: relative;
-    width: 360px;
-    height: 320px;
-
-
-}
-
-
 .container-card .card{
+    display: none;
     position: relative;
     width: 360px;
     height: 320px;
